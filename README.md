@@ -4,14 +4,12 @@
 - 🔭   I’m a Web Developer & Information Systems student at the [National School of Applied Sciences in Khouribga](http://ensak.usms.ac.ma/ensak/).
 - 🤔   📅 Next month, I will start an internship in IT development at the [Polytechnic School of Engineering (EPG)](https://epg.ma/), where I will be involved                  developing web and software applications, and contributing to various technology solutions as part of the engineering team.
 - 🎓   Studying Information Systems, Data Analysis, BI and Web Developement.
-- 💼   Currently, I'm adding my projects in my GitHub.
+- 💼   Currently, I'm adding my projects in my GitHub.                                           <img src="gif3.gif" width="500" alt="Coding illustration" />
 - 🤖   Enthusiast in Web Develeopement I am passionate about digital solutions and optimizing information processes. .
 - ✍️   Reading Medium articles and trying out latest technologies trends.
         *Reading beautiful books like a conversation with the best men of past centuries.* ~Descarte~        
 - ☕   I belive, a perfect cup of coffee can be the ultimate solution for any stress.
 - ⏳    One more thing; *Never stop studing because life never stops teaching.*
-
-<img src="gif3.gif" width="500" alt="Coding illustration" />
 
 
 ## 🛠 Tech Stack
