@@ -15,7 +15,7 @@
 ## 🛠 Tech Stack
 
 - 💻   Python | SQL | Java | NoSQL | PHP | 
-- 🌐   HTML | CSS | JavaScript | Bootstrap                                                                  <img src="gif3.gif" width="500" alt="Coding illustration" />
+- 🌐   HTML | CSS | JavaScript | Bootstrap
 - 🛢    MySQL | SQLite | MongoDB
 - 🔧   Visual Studio code | Pycharm | Git
 
