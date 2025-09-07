@@ -2,7 +2,7 @@
 ## 👨🏻‍💻 About Me
 
 - 🔭   I’m a Web Developer & Information Systems student at the [National School of Applied Sciences in Khouribga](http://ensak.usms.ac.ma/ensak/).
-- 🤔   📅 Until this moment(from 01/07/2025), I am doing an internship in IT development at the [EXPERTS HUMAN CAPITAL (EHC Goup)](http://expertshumancapital.com), where I will be involved                  developing web and software applications, and contributing to various technology solutions as part of the engineering team.
+- 🤔   📅 Until this moment(from 01/07/2025), I am doing an internship in IT development at the [EXPERTS HUMAN CAPITAL (EHC Group)](http://expertshumancapital.com), where I will be involved                  developing web and software applications, and contributing to various technology solutions as part of the engineering team.
 - 🎓   Studying Information Systems, Data Analysis, BI and Web Developement.
 - 💼   Currently, I'm adding my projects in my GitHub.
 - 🤖   Enthusiast in Web Develeopement I am passionate about digital solutions and optimizing information processes. .
