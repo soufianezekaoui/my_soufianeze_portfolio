@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://soufianezekaoui.github.io/my_soufianez_portfolio/sitemap.xml
