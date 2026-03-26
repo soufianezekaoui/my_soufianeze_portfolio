@@ -1,37 +1,199 @@
-# Hey there! I'm SOUFIANE ZEKAOUI 👋.
-## 👨🏻‍💻 About Me
+<div align="center">
 
-- 🔭   I’m a Web Developer & Information Systems student at the [National School of Applied Sciences in Khouribga](http://ensak.usms.ac.ma/ensak/).
-- 🤔   📅 Until this moment(from 01/07/2025), I am doing an internship in IT development at the [EXPERTS HUMAN CAPITAL (EHC Group)](http://expertshumancapital.com), where I will be involved                  developing web and software applications, and contributing to various technology solutions as part of the engineering team.
-- 🎓   Studying Information Systems, Data Analysis, BI and Web Developement.
-- 💼   Currently, I'm adding my projects in my GitHub.
-- 🤖   Enthusiast in Web Develeopement I am passionate about digital solutions and optimizing information processes. .
-- ✍️   Reading Medium articles and trying out latest technologies trends.
-        *Reading beautiful books like a conversation with the best men of past centuries.* ~Descarte~        
-- ☕   I belive, a perfect cup of Moroccan tea is able to reduce and remove all head pain.
-- ⏳    One more thing; *Never stop studing because life never stops teaching.*
+<!-- HEADER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=043382&height=200&section=header&text=Soufiane%20Zekaoui&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Information%20Systems%20Engineer&descAlignY=58&descSize=18&descColor=ffc107&animation=fadeIn" width="100%"/>
 
+<br/>
 
-## 🛠 Tech Stack
+<!-- BADGES ROW -->
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Live-043382?style=for-the-badge&logoColor=white)](https://soufianezekaoui.github.io/my_soufianeze_portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soufiane-zekaoui-445b1b352/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/soufianezekaoui)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:soufiane.zekaoui@gmail.com)
 
-- 💻   Python | SQL | Java | NoSQL | PHP | 
-- 🌐   HTML | CSS | JavaScript | TypeScript | ReactJs | TailwindCSS | Bootstrap | 
-- 🛢    MySQL | SQLite | MongoDB
-- 🔧   Visual Studio code | Pycharm | Git
+<br/>
 
+> **⚡ Available for End-of-Year Internship · Software Dev / Information Systems · From June 2026**
 
-## 🛠 Areas of expertise
+</div>
 
-- 🌐   Software development | Database management 
-- 📈   Data visuialization and information mapping (Python| Dashboard | Power BI  )
-- 🎰   Applied Statistics and mathematics
+---
 
-### 🔍 GitHub Stats & Metrics Card 📊
-![Soufiane's GitHub Stats](https://github-readme-stats.vercel.app/api?username=soufianezekaoui&show_icons=true&theme=radical)
+## 🧑‍💻 About This Portfolio
 
-### 📊 GitHub Metrics Card
+This is my **personal portfolio website** — designed and built entirely from scratch using vanilla HTML, CSS, and JavaScript. It showcases my projects, experience, skills, and certifications as a **2nd-year Software & Information Systems Engineering student** at ENSA Khouribga, Morocco.
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soufianezekaoui&theme=monokai" alt="GitHub Metrics" />
+The portfolio is designed to reflect who I actually am as a developer: clean architecture, real projects, no filler.
+
+---
+
+## ✨ Features
+
+| Feature                       | Description                                                              |
+|-------------------------------|--------------------------------------------------------------------------|
+| 🎨 **Custom Design**          | Fully handcrafted UI — no templates, built with Bootstrap 5 + custom CSS |
+| ⌨️ **Typing Effect**          | Animated role cycling in the hero section                                |
+| 🗂️ **Project Filter**         | Filter projects by category (Full Stack, Frontend, Data & ML, Backend)   |
+| 🎞️ **Infinite Cert Carousel** | Auto-scrolling certifications loaded from a JSON file                    |
+| 📬 **Contact Form**           | Fully functional with EmailJS integration                                |
+| 📄 **Resume Download**        | One-click PDF download in English & French                               |
+| 🌀 **Scroll Animations**      | IntersectionObserver-powered reveal effects                              |
+| 📱 **Fully Responsive**        | Mobile-first, tested on all screen sizes                                 |
+| 🔝 **Scroll to Top**          | Smooth animated button                                                   |
+| ⚡ **Zero Frameworks**        | Pure HTML/CSS/JS — fast, lightweight, no build step                      |
+
+---
+
+## 🛠️ Tech Stack
+
+```
+Frontend       →  HTML5 · CSS3 · Vanilla JavaScript · Bootstrap 5
+Icons          →  Font Awesome 6
+Fonts          →  Syne (headings) · DM Sans (body) — Google Fonts
+Email          →  EmailJS (contact form)
+Animations     →  CSS keyframes · IntersectionObserver API · jQuery
+Hosting        →  GitHub Pages
+```
+
+---
+
+## 📁 Project Structure
+
+```
+my_soufianeze_portfolio/
+├── 📁 assets
+│   ├── 📁 img
+│   │   ├── 🖼️ Brands.jpg
+│   │   ├── 🖼️ Doc_page.jpg
+│   │   ├── 🖼️ Tech_doc_page.jpg
+│   │   ├── 🖼️ land_page.jpg
+│   │   ├── 🖼️ sf_avatar.png                     # Profile photo
+│   │   ├── 🖼️ sf_weather.jpg                    # Weather app screenshot
+│   │   ├── 🖼️ sfdemographi_ana.png
+│   │   ├── 🖼️ sfmed_vision.png
+│   │   ├── 🖼️ sfsea_level.png
+│   │   ├── 🖼️ sfsyndico_app.png
+│   │   └── 🖼️ sftime_series.png
+│   ├── 📕 ZEKAOUI_SOUFIANE_CV(En).pdf            # Resume (English)
+│   ├── 📕 ZEKAOUI_SOUFIANE_CV(Fr).pdf            # CV (Français)
+│   └── ⚙️ certifications.json                   # Cert data loaded dynamically
+├── 📁 css
+│   └── 🎨 styles.css                             # All custom styles + CSS variables
+├── 📁 js
+│   └── 📄 script.js                              # All interactions, animations, form, typing
+├── 📄 LICENSE
+├── 📝 README.md
+├── 🖼️ gif3.gif
+├── 🌐 google982f82206d09fe22.html                # Google Search Console verification
+├── 🌐 index.html                                 # Main HTML — all sections   
+├── 🖼️ preview.png
+├── 📄 robots.txt
+└── ⚙️ sitemap.xml
+
+*Generated by FileTree Pro Extension*
+```
+
+---
+
+## 🚀 Sections
+
+### 🏠 Hero
+Full-viewport landing with animated avatar ring, floating tech badges, typing effect, CTA buttons, and resume download row (EN / FR).
+
+### 💼 Experience
+Timeline of professional and volunteering experiences:
+- **EHC Group** — Front-End & IS Intern (React, TypeScript, Tailwind CSS) · Jul–Oct 2025
+- **Roof Library** — Head Librarian · Since 2024
+- **DigitalGov Event 1.0** — Head Librarian Volunteer · 2025-Present
+- **CODEX ENSAKH Club** — Sponsorship Cell Member · Oct 2025–Present
+
+### 📂 Projects
+7 projects with filter functionality:
+
+| Project                      | Category         | Stack |
+|------------------------------|------------------|-------------------------------------------------|
+| SyndicoApp                   | Full Stack       | Spring Boot, MySQL, Thymeleaf                   |
+| MedVisionPro                 | Data / ML        | Flask, Scikit-learn, Chart.js                   |
+| DemographicDataAnalyzer      | Data Viz         | Flask, Pandas, CSS Glassmorphism                |
+| Weather Forecast App         | Backend/Frontend | Java 17, Jakarta Servlets, OpenWeatherMap       |
+| Relational Database Projects | Backend          | PostgreSQL, SQL, Bash (5 projects / 5 branches) |
+| Time Series Visualizer       | Data             | Python, Pandas, Matplotlib, Seaborn             |
+| Sea Level Predictor          | Data Science     | Python, SciPy, Linear Regression                |
+
+### 👤 About / Skills
+Bio, tech stack chips (Frontend · Backend & Data · Tools & Methods), education cards, and stat counters.
+
+### 🏅 Certifications
+Auto-scrolling carousel loaded from `certifications.json`:
+- freeCodeCamp: Responsive Web Design, Data Analysis with Python, Relational Databases, JavaScript Algorithms & DS, Front-End Libraries
+- Coursera / IBM: Python for Data Science, Getting Started with Git & GitHub
+
+### 📬 Contact
+Email, phone, location + working contact form powered by EmailJS.
+
+---
+
+## ⚙️ Local Setup
+
+No build tools needed. Just clone and open:
+
+```bash
+git clone https://github.com/soufianezekaoui/my_soufianeze_portfolio.git
+cd my_soufianeze_portfolio
+# Open index.html in your browser
+```
+
+Or use a local server for best results (avoids AJAX issues with certifications.json):
+
+```bash
+# Python
+python -m http.server 3000
+
+# Node.js
+npx serve .
+```
+
+Then visit `http://localhost:3000`
+
+---
+
+## 📄 Resume
+
+| Language    | Download                                                |
+|-------------|---------------------------------------------------------|
+| 🇬🇧 English  | [`resume_en.pdf`](./assets/ZEKAOUI_SOUFIANE_CV(En).pdf) |
+| 🇫🇷 Français | [`resume_fr.pdf`](./assets/ZEKAOUI_SOUFIANE_CV(Fr).pdf) |
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Soufiane's GitHub Stats](https://github-readme-stats.vercel.app/api?username=soufianezekaoui&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=043382&icon_color=ffc107&text_color=ffffff)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soufianezekaoui&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=043382&text_color=ffffff)
+
+</div>
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+Feel free to use it as inspiration — but please don't copy it wholesale. Build your own. 🙂
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=043382&height=100&section=footer&fontColor=ffffff" width="100%"/>
+
+**Made with ❤️ by [Soufiane Zekaoui](https://github.com/soufianezekaoui) · Hosted on GitHub Pages**
+
+*"Never stop studying because life never stops teaching."*
+
+</div>
 
 
 ## 🤝 Connect with Me
