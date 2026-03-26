@@ -104,7 +104,7 @@ Full-viewport landing with animated avatar ring, floating tech badges, typing ef
 Timeline of professional and volunteering experiences:
 - **EHC Group** — Front-End & IS Intern (React, TypeScript, Tailwind CSS) · Jul–Oct 2025
 - **Roof Library** — Head Librarian · Since 2024
-- **DigitalGov Event 1.0** — Head Librarian Volunteer · 2025-Present
+- **DigitalGov Event 1.0** — Event Organizer – Competition & Conference Cells · 2025-Present
 - **CODEX ENSAKH Club** — Sponsorship Cell Member · Oct 2025–Present
 
 ### 📂 Projects
@@ -129,6 +129,12 @@ Auto-scrolling carousel loaded from `certifications.json`:
 - Coursera / IBM: Python for Data Science, Getting Started with Git & GitHub
 
 ### 📬 Contact
+
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge)]()
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/soufianezekaoui?igsh=MWI0eHV0MDJqdHU4eA==)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/soufiane-zekaoui-445b1b352/)
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:soufiane.zekaoui@gmail.com)
+
 Email, phone, location + working contact form powered by EmailJS.
 
 ---
@@ -194,15 +200,3 @@ Feel free to use it as inspiration — but please don't copy it wholesale. Build
 *"Never stop studying because life never stops teaching."*
 
 </div>
-
-
-## 🤝 Connect with Me
-
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge)]()
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/soufianezekaoui?igsh=MWI0eHV0MDJqdHU4eA==)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/soufiane-zekaoui-445b1b352/)
-[![Gmail](https://img.shields.io/badge/-Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:soufiane.zekaoui@gmail.com)
-
----
-
-⭐ *From [Soufiane ZEKAOUI](https://github.com/soufianezekaoui)*
