@@ -1,0 +1,67 @@
+{
+    "certifications": [
+      {
+        "id": 1,
+        "title": "Responsive Web Design",
+        "issuer": "freeCodeCamp",
+        "icon": "fas fa-paint-brush",
+        "color": "#0A3161",
+        "year": "2025",
+        "url": "https://www.freecodecamp.org/certification/soufzeka19371020/responsive-web-design"
+      },
+      {
+        "id": 2,
+        "title": "JavaScript Algorithms & Data Structures",
+        "issuer": "freeCodeCamp",
+        "icon": "fab fa-js-square",
+        "color": "#f7df1e",
+        "year": "2026",
+        "url": "https://www.freecodecamp.org/certification/soufzeka19371020/javascript-algorithms-and-data-structures"
+      },
+      {
+        "id": 3,
+        "title": "Front-End Development Libraries",
+        "issuer": "freeCodeCamp",
+        "icon": "fab fa-react",
+        "color": "#61dafb",
+        "year": "2026",
+        "url": "https://www.freecodecamp.org/certification/soufzeka19371020/front-end-development-libraries"
+      },
+      {
+        "id": 4,
+        "title": "Data Analysis with Python",
+        "issuer": "freeCodeCamp",
+        "icon": "fab fa-python",
+        "color": "#3572A5",
+        "year": "2026",
+        "url": "https://www.freecodecamp.org/certification/soufzeka19371020/data-analysis-with-python-v7"
+      },
+      {
+        "id": 5,
+        "title": "Relational Databases",
+        "issuer": "freeCodeCamp",
+        "icon": "fas fa-database",
+        "color": "#336791",
+        "year": "2026",
+        "url": "https://www.freecodecamp.org/certification/soufzeka19371020/relational-database-v9"
+      },
+      {
+        "id": 6,
+        "title": "Python for Data Science, AI & Dev",
+        "issuer": "Coursera (IBM)",
+        "icon": "fab fa-python",
+        "color": "#054ADA",
+        "year": "2026",
+        "url": "https://www.coursera.org"
+      },
+      {
+        "id": 7,
+        "title": "Getting Started with Git & GitHub",
+        "issuer": "Coursera (IBM)",
+        "icon": "fab fa-git-alt",
+        "color": "#F05032",
+        "year": "2025",
+        "url": "https://coursera.org/share/b3927893b6be7c9f515ac4655e439c9b"
+      }
+    ]
+}

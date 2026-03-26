@@ -1,193 +1,859 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="Personal portfolio of Soufiane Zekaoui, Web & Information Systems student at ENSA Khouribga.">
-    <meta name="description" content="Welcome to my personal portfolio webpage!">
-    <meta name="keywords" content="Soufiane Zekaoui, portfolio, web developer, ENSA Khouribga, IT student">
-    <meta name="author" content="Soufiane zekaoui">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Soufiane Zekaoui — Full Stack Developer & Information Systems Engineering Student. React, Spring Boot, Python. Based in Morocco." />
+    <meta name="keywords" content="Soufiane Zekaoui, Full Stack Developer, React, Spring Boot, ENSA Khouribga, Morocco, portfolio" />
+    <meta name="author" content="Soufiane Zekaoui" />
     <meta name="google-site-verification" content="rUrmlKEG6FHv6l9O-QsPxg6Rl1LMfYIoczVuVCRHzDo" />
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Portfolio - Soufiane Zekaoui">
-    <meta property="og:description" content="Welcome to my portfolio!">
-    <title>Soufiane Zekaoui</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="js/script.js" defer></script>
+
+    <!-- Open Graph -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:title"       content="Soufiane Zekaoui — Full Stack Developer" />
+    <meta property="og:description" content="Engineering student building real-world web & data solutions." />
+    <meta property="og:url"         content="https://soufianezekaoui.github.io/my_soufianeze_portfolio/" />
+
+    <title>Soufiane Zekaoui — Full Stack Developer</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-    <nav id="navbar">
-      <h1><a href="#welcome-section">Soufiane Zekaoui</a></h1>
-      <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+
+    <!-- ================================================================  NAVBAR  ================================================================ -->
+
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="nav-brand navbar-brand" href="#hero">SZ.</a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav align-items-center gap-1">
+            <li class="nav-item"><a class="nav-link-item nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link-item nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link-item nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link-item nav-link" href="#certifications">Certs</a></li>
+            <li class="nav-item ms-2"><a class="nav-cta nav-link" href="#contact">Hire Me</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <section id="welcome-section">
-      <div class="avatar-container">
-        <img src="./assets/img/sf_avatar.png" alt="Profile Avatar">
-      </div>
-      <h1>Soufiane Zekaoui</h1>
-      <div class="divider">
-        <div class="divider-line"></div>
-        <div class="divider-icon"><i class="fas fa-id-badge"></i></div>
-        <div class="divider-line"></div>
-      </div>
-      <p>Web Developer & Information Systems</p>
+
+    <!-- ================================================================  HERO SECTION  ================================================================ -->
+
+    <section id="hero">
+      <div class="hero-grid"></div>
+
+      <div class="container">
+        <div class="row align-items-center min-vh-100 py-5">
+
+          <!-- Left: Content -->
+          <div class="col-lg-7 hero-content">
+
+            <div class="hero-badge">
+              <i class="fas fa-bolt"></i>
+              Available for Internship · June 2026
+            </div>
+
+            <h1 class="hero-name">
+              Soufiane<br/>
+              <span class="accent">Zekaoui</span>
+            </h1>
+
+            <p class="hero-role">
+              <span id="typed-text"></span>
+            </p>
+
+            <p class="hero-description">
+              Software &amp; Information Systems Engineering student at ENSA Khouribga.
+              I build full-stack web applications and data-driven solutions that solve real problems —
+              from recruitment platforms to medical analytics dashboards.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#projects" class="btn-hero-primary">
+                <i class="fas fa-folder-open"></i> View My Work
+              </a>
+              <a href="#contact" class="btn-hero-secondary">
+                <i class="fas fa-paper-plane"></i> Contact Me
+              </a>
+            </div>
+
+            <!-- ── RESUME DOWNLOAD ROW ── -->
+            <div class="resume-download-row">
+              <span class="resume-label">
+                <i class="fas fa-file-alt"></i> Resume
+              </span>
+              <a href="./assets/ZEKAOUI_SOUFIANE_CV(En).pdf" download="Soufiane_Zekaoui_Resume_EN.pdf" class="btn-resume">
+                <i class="fas fa-download"></i> Download (English)
+              </a>
+              <a href="./assets/ZEKAOUI_SOUFIANE_CV(Fr).pdf" download="Soufiane_Zekaoui_CV_FR.pdf" class="btn-resume btn-resume-fr">
+                <i class="fas fa-download"></i> Télécharger (Français)
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-num">4<span>+</span></div>
+                <div class="stat-label">Projects Built</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">5<span>+</span></div>
+                <div class="stat-label">Certifications</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">2<span>+</span></div>
+                <div class="stat-label">Years Coding</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">1<span>×</span></div>
+                <div class="stat-label">Internship</div>
+              </div>
+            </div>
+
+          </div><!-- /col -->
+
+          <!-- Right: Avatar -->
+          <div class="col-lg-5 hero-visual mt-5 mt-lg-0">
+            <div class="hero-avatar-wrap">
+              <div class="hero-avatar-ring">
+                <div class="hero-avatar-inner">
+                  <img src="./assets/img/sf_avatar.png" alt="Soufiane Zekaoui" />
+                </div>
+              </div>
+              <div class="hero-floating-badge badge-1">
+                <i class="fab fa-react" style="color:#61dafb"></i> React Developer
+              </div>
+              <div class="hero-floating-badge badge-2">
+                <i class="fas fa-leaf" style="color:#6DB33F"></i> Spring Boot
+              </div>
+              <div class="hero-floating-badge badge-3">
+                <i class="fab fa-python" style="color:#3572A5"></i> Python &amp; ML
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /row -->
+      </div><!-- /container -->
     </section>
+
+
+    <!-- ================================================================  EXPERIENCE SECTION  ================================================================ -->
+
+    <section id="experience">
+      <div class="container">
+
+        <div class="text-center mb-5 reveal">
+          <span class="section-label">Professional Path</span>
+          <h2 class="section-title">Work <span>Experience</span></h2>
+          <p class="section-subtitle mx-auto">
+            Real-world engineering — where academic knowledge meets production code.
+          </p>
+        </div>
+
+        <div class="timeline">
+
+          <!-- EHC Internship -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <div class="timeline-role">Front-End &amp; Information Systems Intern</div>
+                  <div class="timeline-company">
+                    <a href="http://expertshumancapital.com" target="_blank">
+                      EXPERTS HUMAN CAPITAL (EHC Group)
+                    </a> · Meknès, Morocco · Hybrid
+                  </div>
+                </div>
+                <span class="timeline-badge">Internship</span>
+              </div>
+              <div class="timeline-date">
+                <i class="far fa-calendar-alt"></i>
+                Jul. 2025 – Oct. 2025 &nbsp;·&nbsp; 4 months
+              </div>
+              <ul class="timeline-bullets">
+                <li>Built the front-end of a recruitment information system using React, TypeScript, and Tailwind CSS — including public pages, a candidate portal, and a recruiter dashboard with resume analytics.</li>
+                <li>Converted Figma mockups into responsive, pixel-perfect interfaces aligned with the UI team's designs.</li>
+                <li>Contributed to conceptual data modeling (ERD) using Lucidchart to support system architecture decisions.</li>
+                <li>Managed tasks and tracked sprints using Jira (Agile/Scrum); maintained codebase with GitHub branching and pull requests.</li>
+              </ul>
+              <div class="timeline-tech">
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Tailwind CSS</span>
+                <span class="tech-pill">Figma</span>
+                <span class="tech-pill">Lucidchart</span>
+                <span class="tech-pill">Jira</span>
+                <span class="tech-pill">GitHub</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Head Librarian -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <div class="timeline-role">Head Librarian</div>
+                  <div class="timeline-company">Roof Library · ENSA Khouribga</div>
+                </div>
+                <span class="timeline-badge">Leadership</span>
+              </div>
+              <div class="timeline-date">
+                <i class="far fa-calendar-alt"></i>
+                Since 2024
+              </div>
+              <ul class="timeline-bullets">
+                <li>Manage library operations, space coordination, and team of student volunteers.</li>
+                <li>Provide academic support and resource guidance for engineering students.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- CODEX Club -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <div class="timeline-role">Sponsorship Cell Member</div>
+                  <div class="timeline-company">CODEX ENSAKH Club · Khouribga</div>
+                </div>
+                <span class="timeline-badge">Volunteering</span>
+              </div>
+              <div class="timeline-date">
+                <i class="far fa-calendar-alt"></i>
+                Oct. 2025 – Present
+              </div>
+              <ul class="timeline-bullets">
+                <li>Handle partner and sponsor coordination for tech events.</li>
+                <li>Co-organized logistics for the TECHNOBRIDGE Forum.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- DigitalGov Event 1.0 -->
+          <div class="timeline-item">
+            <div class="timeline-dot timeline-dot-volunteer"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <div class="timeline-role">Event Organizer – Competition & Conference Cells</div>
+                  <div class="timeline-company">DigitalGov Event · Khouribga</div>
+                </div>
+                <span class="timeline-badge timeline-badge-volunteer">
+                  <i class="fas fa-hands-helping me-1"></i>Volunteering
+                </span>
+              </div>
+              <div class="timeline-date">
+                <i class="far fa-calendar-alt"></i>
+                Sep. 2025 – Present
+              </div>
+              <ul class="timeline-bullets">
+                <li>Played a key role in organizing DigitalGov 1.0, a large-scale tech event at ENSA Khouribga.</li>
+                <li>Co-managed the PythonBattle competition, including content preparation, participant engagement, and technical coordination via HackerRank.</li>
+                <li>Contributed to the design and delivery of Python training sessions.</li>
+                <li>Engaged in outreach and coordination with professionals to lead conferences and workshops.</li>
+                <li>Supported the organization of sessions covering cutting-edge topics such as Agentic AI, Machine Learning, and Digital Governance.</li>
+                <li>Developed strong skills in leadership, collaboration, and project execution.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div><!-- /timeline -->
+      </div>
+    </section>
+
+
+    <!-- ================================================================  PROJECTS SECTION  ================================================================ -->
 
     <section id="projects">
-      <h2>Projects</h2>
-      <div class="divider">
-        <div class="divider-line"></div>
-        <div class="divider-icon"><i class="fas fa-code"></i></div>
-        <div class="divider-line"></div>
-      </div>
-      
-      <div class="projects-grid">
-        <div class="project-tile">
-          <a href="https://github.com/soufianezekaoui/weather-forecast-SF" target="_blank">
-            <img src="./assets/img/sf_weather.jpg" alt="Weather App Project">
-            <div class="project-content">
-              <h3>Weather App</h3>
-              <div class="project-tags">
-                <span class="tag tag-primary">API, Java</span>
-                <span class="tag tag-warning">HTML5, CSS3, JS</span>
-              </div>
-              <p>Development of a weather application using API addresses and JAVA in the backend and HTML5, CSS3, JS for the frontend.</p>
-            </div>
-          </a>
-        </div>
-        
-        <div class="project-tile">
-          <a href="https://github.com/soufianezekaoui" target="_blank">
-            <img src="./assets/img/Brands.jpg" alt="global car sales data">
-            <div class="project-content">
-              <h3>global car sales data</h3>
-              <div class="project-tags">
-                <span class="tag tag-primary">Python</span>
-                <span class="tag tag-warning">Jupyter Notebook</span>
-              </div>
-              <p>Analyze 2024 global car sales data using AFC (Correspondence Analysis) to uncover relationships between automotive brands and countries. This Python-based study in Jupyter Notebook explores market patterns and brand preferences across different regions. The analysis reveals insights into geographic market dynamics and brand positioning in the international automotive industry..</p>
-            </div>
-          </a>
-        </div>
-        
-        <div class="project-tile">
-          <a href="https://www.freecodecamp.org/certification/soufzeka19371020/responsive-web-design" target="_blank">
-            <img src="./assets/img/Doc_page.jpg" alt="Tribute Page">
-            <div class="project-content">
-              <h3>Tribute Page</h3>
-              <div class="project-tags">
-                <span class="tag tag-primary">HTML5</span>
-                <span class="tag tag-warning">CSS3</span>
-              </div>
-              <p>Create a clean, responsive tribute page celebrating someone who inspires you.</p>
-            </div>
-          </a>
+      <div class="container">
+
+        <div class="text-center mb-5 reveal">
+          <span class="section-label">What I've Built</span>
+          <h2 class="section-title">Featured <span>Projects</span></h2>
+          <p class="section-subtitle mx-auto">
+            From full-stack web apps to machine learning dashboards — each project
+            is a real solution to a real problem.
+          </p>
         </div>
 
-        <div class="project-tile">
-          <a href="https://www.freecodecamp.org/certification/soufzeka19371020/responsive-web-design" target="_blank">
-            <img src="./assets/img/Tech_doc_page.jpg" alt="Technical Documentation Page">
-            <div class="project-content">
-              <h3>Technical Documentation Page</h3>
-              <div class="project-tags">
-                <span class="tag tag-primary">HTML5</span>
-                <span class="tag tag-warning">CSS3</span>
-              </div>
-              <p>Build a comprehensive JavaScript reference guide with interactive navigation and code examples.</p>
-            </div>
-          </a>
+        <!-- Filter Buttons -->
+        <div class="project-filter justify-content-center reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="data">Data &amp; ML</button>
+          <button class="filter-btn" data-filter="backend">Backend</button>
         </div>
 
-        <div class="project-tile">
-          <a href="https://www.freecodecamp.org/certification/soufzeka19371020/responsive-web-design" target="_blank">
-            <img src="./assets/img/land_page.jpg" alt="Product Landing Page">
-            <div class="project-content">
-              <h3>Product Landing Page</h3>
-              <div class="project-tags">
-                <span class="tag tag-primary">HTML5</span>
-                <span class="tag tag-warning">CSS3</span>
-              </div>
-              <p>Design a compelling product landing page for Original Trombones featuring product highlights, demonstrations, and pricing tiers.</p>
+        <div class="row g-4">
+
+          <!-- PROJECT 1: SyndicoApp -->
+          <div class="col-lg-6 col-md-6 project-card featured" data-category="fullstack backend">
+            <span class="featured-label">⭐ Featured</span>
+            <div class="project-img-wrap">
+              <img src="./assets/img/sfsyndico_app.png" alt="Syndico App Project" />
             </div>
-          </a>
-        </div>
+            <div class="project-body">
+              <div class="project-category">Full Stack · Team Project</div>
+              <h3 class="project-title">SyndicoApp — Condominium Management System</h3>
+              <p class="project-desc">
+                A complete web platform for condominium management covering resident tracking,
+                payment processing, and administrative dashboards. Features an integrated chatbot,
+                multilingual support, and a monolithic Spring Boot architecture.
+                Built collaboratively with 3 full-stack developers.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Spring Boot 3</span>
+                <span class="p-tag">Spring Security</span>
+                <span class="p-tag">Spring Data JPA</span>
+                <span class="p-tag warn">Thymeleaf</span>
+                <span class="p-tag warn">Bootstrap 5</span>
+                <span class="p-tag dark">MySQL 8</span>
+                <span class="p-tag dark">Maven</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/msabr/Syndico-app" target="_blank" class="btn-project ghost">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: MedVisionPro -->
+          <div class="col-lg-6 col-md-6 project-card" data-category="data fullstack">
+            <div class="project-img-wrap">
+              <img src="./assets/img/sfmed_vision.png" alt="MedVisionPro Project" />
+            </div>
+            <div class="project-body">
+              <div class="project-category">Data Science · ML · Personal Project</div>
+              <h3 class="project-title">MedVisionPro — Medical Analytics Dashboard</h3>
+              <p class="project-desc">
+                Analytical dashboard processing 70,000+ patient records for health pattern visualization
+                and cardiovascular disease risk prediction. Achieved 85% accuracy with a Random Forest model.
+                Provides evidence-based clinical recommendations through interactive charts.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Flask</span>
+                <span class="p-tag">Scikit-learn</span>
+                <span class="p-tag">Pandas</span>
+                <span class="p-tag warn">Chart.js</span>
+                <span class="p-tag warn">NumPy</span>
+                <span class="p-tag dark">85% Accuracy</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/soufianezekaoui/MEDIVISION-PRO" target="_blank" class="btn-project ghost">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: DemographicDataAnalyzer -->
+          <div class="col-lg-6 col-md-6 project-card" data-category="data fullstack frontend">
+            <div class="project-img-wrap">
+              <img src="./assets/img/sfdemographi_ana.png" alt="Demographic Data Project" />
+            </div>
+            <div class="project-body">
+              <div class="project-category">Data Visualization · Personal Project</div>
+              <h3 class="project-title">DemographicDataAnalyzer — 1994 Census Explorer</h3>
+              <p class="project-desc">
+                Interactive dashboard analyzing the 1994 US Census dataset: income/education correlations,
+                race distribution, and demographic breakdowns. Supports CSV upload, real-time filters,
+                data export, and includes a Dark/Light theme toggle.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Flask</span>
+                <span class="p-tag">Pandas</span>
+                <span class="p-tag warn">Chart.js 4.4</span>
+                <span class="p-tag warn">CSS3 Glassmorphism</span>
+                <span class="p-tag dark">NumPy</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/soufianezekaoui/demographic-data-analyzer" target="_blank" class="btn-project ghost">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: Weather App -->
+          <div class="col-lg-6 col-md-6 project-card" data-category="backend frontend">
+            <div class="project-img-wrap">
+              <img src="./assets/img/sf_weather.jpg" alt="Weather App Project" />
+            </div>
+            <div class="project-body">
+              <div class="project-category">Backend · Frontend · Academic Project</div>
+              <h3 class="project-title">Weather Forecast App</h3>
+              <p class="project-desc">
+                Responsive weather application delivering real-time conditions and a 5-day forecast
+                (temperature, humidity, wind, UV index). Built with Java Servlets on Apache Tomcat,
+                consuming the OpenWeatherMap API with trend charts and robust error handling.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Java 17</span>
+                <span class="p-tag">Jakarta Servlets 6.0</span>
+                <span class="p-tag warn">Apache Tomcat 10.1</span>
+                <span class="p-tag warn">Chart.js</span>
+                <span class="p-tag dark">OpenWeatherMap API</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/soufianezekaoui/weather-forecast-SF" target="_blank" class="btn-project ghost">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 5: Relational Database Projects -->
+          <div class="col-lg-6 col-md-6 project-card" data-category="backend data">
+            <div class="project-img-wrap">
+              <div class="project-icon-placeholder">
+                <i class="fas fa-database"></i>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-category">Relational Databases · Personal Projects</div>
+              <h3 class="project-title">Relational Database Projects</h3>
+              <p class="project-desc">
+                A collection of 5 relational database projects organized in a single GitHub repository
+                across multiple branches — each tackling a distinct real-world data modeling challenge.
+                Covers schema design, complex SQL queries, normalization, and Bash scripting for
+                database automation. Built as part of freeCodeCamp's Relational Database certification.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">PostgreSQL</span>
+                <span class="p-tag">SQL</span>
+                <span class="p-tag warn">Bash Scripting</span>
+                <span class="p-tag warn">Data Modeling</span>
+                <span class="p-tag dark">5 Projects · 5 Branches</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/soufianezekaoui/relational-databases-projects" target="_blank" class="btn-project ghost">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 6:Time Series Visualizer -->
+          <div class="col-lg-6 col-md-6 project-card" data-category="data">
+            <div class="project-img-wrap">
+              <img src="./assets/img/sftime_series.png" alt="Time Series Visualizer Project" />
+            </div>
+            <div class="project-body">
+              <div class="project-category">Data Analysis · Personal Project</div>
+              <h3 class="project-title">Time Series Visualizer</h3>
+              <p class="project-desc">
+                Data visualization project analyzing a time-series dataset of page views on the
+                freeCodeCamp forum. Uses line charts, bar charts, and box plots to reveal trends,
+                seasonality, and outliers across years and months.
+                Built with Pandas and Matplotlib/Seaborn.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Python</span>
+                <span class="p-tag">Pandas</span>
+                <span class="p-tag warn">Matplotlib</span>
+                <span class="p-tag warn">Seaborn</span>
+                <span class="p-tag dark">Time Series</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/soufianezekaoui/sftime-series-visualizer" target="_blank" class="btn-project ghost">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 7: Sea Level Predictor -->
+          <div class="col-lg-6 col-md-6 project-card" data-category="data">
+            <div class="project-img-wrap">
+              <img src="./assets/img/sfsea_level.png" alt="Sea Level Predictor Project" />
+            </div>
+            <div class="project-body">
+              <div class="project-category">Data Science · Predictive Analysis · Personal Project</div>
+              <h3 class="project-title">Sea Level Predictor</h3>
+              <p class="project-desc">
+                Predictive analysis using historical sea level data (1880–2013) to forecast
+                rise through 2050. Applies linear regression with two trend lines — one for the full
+                dataset and one for recent data (2000+) — to model accelerating sea level change.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Python</span>
+                <span class="p-tag">Pandas</span>
+                <span class="p-tag warn">Matplotlib</span>
+                <span class="p-tag warn">SciPy</span>
+                <span class="p-tag dark">Linear Regression</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/soufianezekaoui/sfsea-level-predictor" target="_blank" class="btn-project ghost">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /row -->
       </div>
     </section>
 
+
+    <!-- ================================================================  ABOUT SECTION  ================================================================ -->
     <section id="about">
-      <h2>About</h2>
-      <div class="divider light">
-        <div class="divider-line"></div>
-        <div class="divider-icon"><i class="fas fa-random"></i></div>
-        <div class="divider-line"></div>
-      </div>
-      
-      <div class="about-content">
-        <p>Web Developer and Information Systems Engineering Student, I am passionate about digital solutions and optimizing information processes.</p>
-        <p>Works with Java, Python, and JS.</p>
-        <p>Student at the National School of Applied Sciences, Management and Governance of Information Systems.</p>
-        <p>Graduated from faculty of Science and Technologies, Mathematics-Informatique-Physics.</p>
+      <div class="container">
+
+        <div class="row align-items-start g-5">
+
+          <!-- Left: Text -->
+          <div class="col-lg-6 reveal">
+            <span class="section-label">Who I Am</span>
+            <h2 class="section-title">
+              Builder. Thinker.<br/><span>Problem Solver.</span>
+            </h2>
+
+            <div class="divider-dot">
+              <span></span><em></em><span></span>
+            </div>
+
+            <p class="about-intro">
+              I'm <span class="about-highlight">Soufiane Zekaoui</span>, a 2nd-year
+              Software &amp; Information Systems Engineering student at
+              <span class="about-highlight">ENSA Khouribga</span>.
+              I don't just study code — I build with it.
+            </p>
+            <p class="about-intro">
+              From <span class="about-highlight">React frontends</span> designed in Figma
+              to <span class="about-highlight">Spring Boot backends</span> with full security layers,
+              from <span class="about-highlight">ML models</span> predicting cardiovascular risk
+              to relational databases modeled from scratch — I connect all the dots.
+            </p>
+            <p class="about-intro">
+              My MGSI track gives me a unique edge: I understand
+              <span class="about-highlight">information systems architecture</span>,
+              <span class="about-highlight">data governance</span>, and
+              <span class="about-highlight">IT project management</span> alongside pure engineering —
+              which means I build things that actually work in organizations, not just on localhost.
+            </p>
+
+            <!-- Skills -->
+            <div class="skills-block">
+              <div class="skill-group-title">Frontend</div>
+              <div class="skill-chips">
+                <span class="skill-chip"><i class="fab fa-react"></i> React.js</span>
+                <span class="skill-chip"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="skill-chip"><i class="fab fa-js"></i> TypeScript</span>
+                <span class="skill-chip"><i class="fab fa-css3-alt"></i> Tailwind CSS</span>
+                <span class="skill-chip"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                <span class="skill-chip"><i class="fas fa-paint-brush"></i> Figma</span>
+              </div>
+
+              <div class="skill-group-title">Backend &amp; Data</div>
+              <div class="skill-chips">
+                <span class="skill-chip"><i class="fas fa-leaf" style="color:#6DB33F"></i> Spring Boot</span>
+                <span class="skill-chip"><i class="fab fa-python"></i> Python / Flask</span>
+                <span class="skill-chip"><i class="fab fa-java"></i> Java</span>
+                <span class="skill-chip"><i class="fab fa-node-js" style="color:#3c873a"></i> Node.js</span>
+                <span class="skill-chip"><i class="fas fa-database"></i> MySQL / PostgreSQL</span>
+                <span class="skill-chip"><i class="fas fa-brain"></i> Scikit-learn</span>
+                <span class="skill-chip"><i class="fas fa-brain"></i> TensorFlow</span>
+              </div>
+
+              <div class="skill-group-title">Tools &amp; Methods</div>
+              <div class="skill-chips">
+                <span class="skill-chip"><i class="fab fa-git-alt"></i> Git / GitHub</span>
+                <span class="skill-chip"><i class="fab fa-jira"></i> Jira / Scrum</span>
+                <span class="skill-chip"><i class="fas fa-project-diagram"></i> UML / ERD</span>
+                <span class="skill-chip"><i class="fas fa-code"></i> Maven</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: Cards + Stats -->
+          <div class="col-lg-6 reveal">
+            <div class="about-card">
+              <div class="about-card-icon"><i class="fas fa-graduation-cap"></i></div>
+              <h5>ENSA Khouribga — Engineering Cycle</h5>
+              <p>Management &amp; Governance of Information Systems (MGSI) · Since 2024</p>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon"><i class="fas fa-flask"></i></div>
+              <h5>FST Errachidia — DEUST</h5>
+              <p>Mathematics, Computer Science &amp; Physics · 2022–2024</p>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon"><i class="fas fa-briefcase"></i></div>
+              <h5>EHC Group Internship</h5>
+              <p>Front-End &amp; Information Systems Intern · Jul–Oct 2025 · Hybrid · Meknès</p>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon"><i class="fas fa-book-open"></i></div>
+              <h5>Head Librarian &amp; Club Member</h5>
+              <p>Roof Library + CODEX ENSAKH Club — leadership, events, team coordination.</p>
+            </div>
+
+            <!-- Stats row -->
+            <div class="profile-stat-row">
+              <div class="p-stat">
+                <div class="p-stat-num">2<span class="gold">nd</span></div>
+                <div class="p-stat-label">Year Engineer</div>
+              </div>
+              <div class="p-stat">
+                <div class="p-stat-num">10<span class="gold">+</span></div>
+                <div class="p-stat-label">Technologies</div>
+              </div>
+              <div class="p-stat">
+                <div class="p-stat-num">B<span class="gold">1</span></div>
+                <div class="p-stat-label">English · French</div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /row -->
       </div>
     </section>
+
+
+    <!-- ================================================================  CERTIFICATIONS SECTION  ================================================================ -->
+    <section id="certifications">
+      <div class="container">
+
+        <div class="row align-items-center mb-5 reveal">
+          <div class="col-lg-8">
+            <span class="section-label">Verified Learning</span>
+            <h2 class="section-title">Certifications &amp; <span>Credentials</span></h2>
+            <p class="section-subtitle">
+              Continuously upskilling through structured programs from freeCodeCamp, Coursera, and IBM.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+            <a href="https://www.freecodecamp.org/soufzeka19371020" target="_blank"
+               class="btn-hero-secondary d-inline-flex">
+              <i class="fas fa-external-link-alt"></i> View All on freeCodeCamp
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Full-width scrolling track -->
+      <div class="cert-track-wrapper">
+        <div class="cert-track" id="cert-track-inner">
+          <div class="cert-loading">
+            <i class="fas fa-spinner fa-spin me-2"></i> Loading certifications...
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ================================================================  CONTACT SECTION  ================================================================ -->
 
     <section id="contact">
-      <h2>Contact</h2>
-      <div class="divider">
-        <div class="divider-line"></div>
-        <div class="divider-icon"><i class="fas fa-phone"></i></div>
-        <div class="divider-line"></div>
-      </div>
-      
-      <div class="contact-grid">
-        <div class="contact-item">
-          <a href="tel:+212-616167279">
-            <div class="contact-icon"><i class="fas fa-mobile-alt"></i></div>
-            <div class="contact-label">Phone</div>
-            <div class="contact-info">+212 616 167 279</div>
-          </a>
+      <div class="container">
+
+        <div class="text-center mb-5 reveal">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Let's <span>Work Together</span></h2>
+          <p class="section-subtitle mx-auto">
+            Open to internships, collaborations, and interesting conversations.
+            Don't hesitate to reach out.
+          </p>
         </div>
-        
-        <div class="contact-item">
-          <a href="mailto:soufiane.zekaoui@gmail.com">
-            <div class="contact-icon"><i class="far fa-envelope"></i></div>
-            <div class="contact-label">Email</div>
-            <div class="contact-info">soufiane.zekaoui@gmail.com</div>
-          </a>
-        </div>
+
+        <div class="row g-4 align-items-stretch reveal">
+
+          <!-- Left: Info -->
+          <div class="col-lg-5">
+            <div class="contact-info-card h-100">
+              <h3>Let's build something great.</h3>
+              <p>
+                I'm currently seeking an end-of-year internship (Software Dev / Information Systems)
+                from June 2026 — minimum 2 months. Available for hybrid or on-site roles in Morocco
+                and remote opportunities internationally.
+              </p>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-detail-text">
+                  <div class="label">Email</div>
+                  <a href="mailto:soufiane.zekaoui@gmail.com" class="value" style="color:white">
+                    soufiane.zekaoui@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon"><i class="fas fa-phone"></i></div>
+                <div class="contact-detail-text">
+                  <div class="label">Phone</div>
+                  <a href="tel:+212616167279" class="value" style="color:white">
+                    (+212) 616 167 279
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-detail-text">
+                  <div class="label">Location</div>
+                  <div class="value">Khouribga/Meknès, Morocco</div>
+                </div>
+              </div>
+
+              <div class="contact-social">
+                <a href="https://www.linkedin.com/in/soufiane-zekaoui-445b1b352/" target="_blank" class="social-icon-btn" title="LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/soufianezekaoui" target="_blank" class="social-icon-btn" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/soufianezekaoui" target="_blank" class="social-icon-btn" title="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:soufiane.zekaoui@gmail.com" class="social-icon-btn" title="Email">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Form -->
+          <div class="col-lg-7">
+            <div class="contact-form-card h-100">
+              <h4>Send Me a Message</h4>
+
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-sm-6 form-group">
+                    <label class="form-label-custom" for="contactName">Full Name</label>
+                    <input type="text" id="contactName" class="form-control-custom"
+                           placeholder="Soo Uchiha" required />
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <label class="form-label-custom" for="contactEmail">Email Address</label>
+                    <input type="email" id="contactEmail" class="form-control-custom"
+                           placeholder="Soo@example.com" required />
+                  </div>
+                  <div class="col-12 form-group">
+                    <label class="form-label-custom" for="contactSubject">Subject</label>
+                    <input type="text" id="contactSubject" class="form-control-custom"
+                           placeholder="Internship Opportunity / Collaboration / ..." />
+                  </div>
+                  <div class="col-12 form-group">
+                    <label class="form-label-custom" for="contactMessage">Message</label>
+                    <textarea id="contactMessage" class="form-control-custom"
+                              rows="5" placeholder="Tell me about your project or opportunity..."
+                              required></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn-submit mt-3">
+                  <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+
+                <div id="formSuccess" class="form-alert success">
+                  <i class="fas fa-check-circle"></i>
+                  Message sent successfully! I'll get back to you within 24 hours.
+                </div>
+                <div id="formError" class="form-alert error">
+                  <i class="fas fa-exclamation-circle"></i>
+                  Something went wrong. Please email me directly at soufiane.zekaoui@gmail.com
+                </div>
+
+              </form>
+
+              <p style="font-size:0.75rem;color:#aaa;margin-top:16px;text-align:center">
+                <i class="fas fa-lock me-1"></i>
+                Your information is private and will never be shared.
+              </p>
+            </div>
+          </div>
+
+        </div><!-- /row -->
       </div>
     </section>
 
+
+    <!-- ================================================================  FOOTER  ================================================================ -->
     <footer>
-      <div class="social-container">
-        <h4>Let's work together...</h4>
-        <div class="social-links">
-          <a href="https://www.instagram.com/soufianezekaoui?igsh=MWI0eHV0MDJqdHU4eA==" target="_blank" class="social-link">
+      <div class="container">
+        <div class="footer-brand">Soufiane Zekaoui</div>
+        <p class="footer-tagline">Full Stack Developer · Information Systems Engineer · Morocco</p>
+
+        <div class="footer-social">
+          <a href="https://www.instagram.com/soufianezekaoui?igsh=MWI0eHV0MDJqdHU4eA==" target="_blank" class="footer-social-link">
             <i class="fab fa-instagram"></i> Instagram
           </a>
-          <a id="profile-link" href="https://github.com/soufianezekaoui" target="_blank" class="social-link">
+          <a href="https://github.com/soufianezekaoui" target="_blank" class="footer-social-link" id="profile-link">
             <i class="fab fa-github"></i> GitHub
           </a>
-          <a href="https://www.linkedin.com/in/soufiane-zekaoui-445b1b352/" target="_blank" class="social-link">
+          <a href="https://www.linkedin.com/in/soufiane-zekaoui-445b1b352/" target="_blank" class="footer-social-link">
             <i class="fab fa-linkedin-in"></i> LinkedIn
           </a>
-          <a href="#" target="_blank" class="social-link">
-            <i class="fab fa-twitter"></i> Twitter
+          <a href="mailto:soufiane.zekaoui@gmail.com" class="footer-social-link">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+        </div>
+
+        <!-- Resume download in footer -->
+        <div class="footer-resume">
+          <a href="./assets/ZEKAOUI_SOUFIANE_CV(En).pdf" download="Soufiane_Zekaoui_Resume_EN.pdf" class="footer-resume-btn">
+            <i class="fas fa-download"></i> Resume (EN)
+          </a>
+          <a href="./assets/ZEKAOUI_SOUFIANE_CV(Fr).pdf" download="Soufiane_Zekaoui_CV_FR.pdf" class="footer-resume-btn">
+            <i class="fas fa-download"></i> CV (FR)
           </a>
         </div>
       </div>
-      
-      <div class="copyright">
-        <small><a href="https://github.com/soufianezekaoui/my_soufianeze_portfolio/blob/main/LICENSE" target="_blank">MIT Licensed</a> | Soufiane Zekaoui 2025 | Hosted with ❤ by <a href="https://github.com/" target="_blank">GitHub</a></small>
+
+      <div class="footer-copyright">
+        <div class="container">
+          <small>
+            <a href="https://github.com/soufianezekaoui/my_soufianeze_portfolio/blob/main/LICENSE" target="_blank">MIT Licensed</a>
+            &nbsp;|&nbsp; Soufiane Zekaoui 2025 &nbsp;|&nbsp;
+            Hosted with ❤ by <a href="https://github.com/" target="_blank">GitHub</a>
+          </small>
+        </div>
       </div>
     </footer>
-    
-    <a href="#welcome-section" class="scroll-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </body>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTopBtn" title="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+    <!-- ================================================================  SCRIPTS  ================================================================ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+
+    </body>
+
 </html>
