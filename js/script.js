@@ -210,10 +210,11 @@ $(document).ready(function () {
       $error.hide();
   
       const templateParams = {
-        from_name:    $('#contactName').val(),
-        from_email:   email,
-        message:      $('#contactMessage').val(),
-        to_name:      'Soufiane'
+          from_name:    $('#contactName').val(),
+          from_email:   email,
+          subject:      $('#contactSubject').val() || 'No subject',
+          message:      $('#contactMessage').val(),
+          to_name:      'Soufiane'
       };
   
       if (typeof emailjs !== 'undefined') {
